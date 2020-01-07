@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM node:10.15.3
 
 RUN apt-get update
 RUN apt-get install -yy wget curl gnupg
